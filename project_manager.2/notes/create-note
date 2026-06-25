@@ -1,2 +1,0 @@
-#!/bin/bash
-touch note-$(date +%m-%d-%Y_%H:%M).txt
