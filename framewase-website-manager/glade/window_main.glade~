@@ -11,20 +11,20 @@
   <object class="GtkImage" id="icon_new_website">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
+    <property name="stock">gtk-add</property>
     <property name="pixel-size">16</property>
-    <property name="icon-name">list-add</property>
   </object>
   <object class="GtkImage" id="icon_server_edit">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
+    <property name="stock">gtk-properties</property>
     <property name="pixel-size">16</property>
-    <property name="icon-name">preferences-other</property>
   </object>
   <object class="GtkImage" id="icon_sync">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
+    <property name="stock">gtk-refresh</property>
     <property name="pixel-size">16</property>
-    <property name="icon-name">view-refresh</property>
   </object>
   <object class="GtkAdjustment" id="menu_scroll">
     <property name="upper">100</property>
@@ -415,8 +415,8 @@
                     <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">3</property>
+                    <property name="stock">gtk-go-down</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
                   </object>
                 </child>
                 <style>
@@ -447,8 +447,8 @@
                     <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">3</property>
+                    <property name="stock">gtk-go-up</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">go-up</property>
                   </object>
                 </child>
                 <style>
@@ -478,8 +478,8 @@
                     <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">2</property>
+                    <property name="stock">gtk-close</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
                   </object>
                 </child>
                 <style>
