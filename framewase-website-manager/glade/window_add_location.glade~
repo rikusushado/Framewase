@@ -2,15 +2,137 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <object class="GtkWindow" id="selection_local_search">
+  <object class="GtkWindow">
+    <property name="visible">True</property>
     <property name="can-focus">False</property>
     <property name="window-position">center-always</property>
     <property name="default-width">420</property>
     <property name="default-height">260</property>
     <property name="gravity">north</property>
     <child>
+      <placeholder/>
+    </child>
+    <child type="titlebar">
       <object class="GtkBox">
         <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkImage">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="xpad">4</property>
+            <property name="ypad">2</property>
+            <property name="pixel-size">24</property>
+            <property name="icon-name">applications-development</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="hexpand">True</property>
+            <property name="label" translatable="yes">Framewase Location Assistant</property>
+            <property name="justify">center</property>
+            <attributes>
+              <attribute name="font-desc" value="Sans Bold 12"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButtonBox">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="halign">end</property>
+            <property name="margin-end">4</property>
+            <property name="layout-style">start</property>
+            <child>
+              <object class="GtkButton">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="always-show-image">True</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <property name="xpad">2</property>
+                    <property name="ypad">2</property>
+                    <property name="pixel-size">16</property>
+                    <property name="icon-name">go-down</property>
+                  </object>
+                </child>
+                <style>
+                  <class name="small"/>
+                </style>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="pack-type">end</property>
+                <property name="position">0</property>
+                <property name="non-homogeneous">True</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <child>
+                  <object class="GtkImage">
+                    <property name="visible">True</property>
+                    <property name="can-focus">False</property>
+                    <property name="halign">center</property>
+                    <property name="valign">center</property>
+                    <property name="xpad">2</property>
+                    <property name="ypad">2</property>
+                    <property name="pixel-size">16</property>
+                    <property name="icon-name">dialog-close</property>
+                  </object>
+                </child>
+                <style>
+                  <class name="small"/>
+                </style>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="pack-type">end</property>
+                <property name="position">1</property>
+                <property name="non-homogeneous">True</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <template class="selection_local_search" parent="GtkBin">
+    <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkBox">
         <property name="can-focus">False</property>
         <property name="margin-top">12</property>
         <property name="margin-bottom">6</property>
@@ -158,127 +280,10 @@
         </child>
       </object>
     </child>
-    <child type="titlebar">
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="xpad">4</property>
-            <property name="ypad">2</property>
-            <property name="pixel-size">24</property>
-            <property name="icon-name">applications-development</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">True</property>
-            <property name="label" translatable="yes">Framewase Location Assistant</property>
-            <property name="justify">center</property>
-            <attributes>
-              <attribute name="font-desc" value="Sans Bold 12"/>
-            </attributes>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButtonBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="halign">end</property>
-            <property name="layout-style">start</property>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <property name="always-show-image">True</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">3</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">0</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">1</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
-  <object class="GtkWindow" id="selection_location_type">
+  </template>
+  <template class="selection_location_type" parent="GtkBin">
+    <property name="visible">True</property>
     <property name="can-focus">False</property>
-    <property name="window-position">center-always</property>
-    <property name="default-width">420</property>
-    <property name="default-height">260</property>
-    <property name="gravity">north</property>
     <child>
       <object class="GtkBox">
         <property name="visible">True</property>
@@ -347,11 +352,15 @@
                         <property name="width-request">120</property>
                         <property name="height-request">120</property>
                         <property name="visible">True</property>
-                        <property name="can-focus">False</property>
+                        <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <property name="always-show-image">True</property>
                         <child>
-                          <placeholder/>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="stock">gtk-missing-image</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
@@ -395,11 +404,15 @@
                         <property name="width-request">120</property>
                         <property name="height-request">120</property>
                         <property name="visible">True</property>
-                        <property name="can-focus">False</property>
+                        <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <property name="always-show-image">True</property>
                         <child>
-                          <placeholder/>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="stock">gtk-missing-image</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
@@ -443,11 +456,15 @@
                         <property name="width-request">120</property>
                         <property name="height-request">120</property>
                         <property name="visible">True</property>
-                        <property name="can-focus">False</property>
+                        <property name="can-focus">True</property>
                         <property name="receives-default">True</property>
                         <property name="always-show-image">True</property>
                         <child>
-                          <placeholder/>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="stock">gtk-missing-image</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
@@ -501,133 +518,12 @@
         </child>
       </object>
     </child>
-    <child type="titlebar">
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="xpad">4</property>
-            <property name="ypad">2</property>
-            <property name="pixel-size">24</property>
-            <property name="icon-name">applications-development</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">True</property>
-            <property name="label" translatable="yes">Framewase Location Assistant</property>
-            <property name="justify">center</property>
-            <attributes>
-              <attribute name="font-desc" value="Sans Bold 12"/>
-            </attributes>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButtonBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="halign">end</property>
-            <property name="margin-end">4</property>
-            <property name="layout-style">start</property>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <property name="always-show-image">True</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">0</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">1</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
-  <object class="GtkWindow" id="selection_remote_manual">
+  </template>
+  <template class="selection_remote_manual" parent="GtkBin">
+    <property name="visible">True</property>
     <property name="can-focus">False</property>
-    <property name="resizable">False</property>
-    <property name="window-position">center-always</property>
-    <property name="default-width">420</property>
-    <property name="default-height">260</property>
-    <property name="accept-focus">False</property>
-    <property name="gravity">north</property>
     <child>
       <object class="GtkBox">
-        <property name="visible">True</property>
         <property name="can-focus">False</property>
         <property name="margin-top">12</property>
         <property name="margin-bottom">6</property>
@@ -689,6 +585,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="halign">end</property>
+                    <property name="margin-right">4</property>
                     <property name="margin-end">4</property>
                     <property name="label" translatable="yes">Server</property>
                     <property name="justify">right</property>
@@ -706,6 +603,8 @@
                     <property name="width-request">220</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <property name="margin-left">6</property>
+                    <property name="margin-right">6</property>
                     <property name="margin-start">6</property>
                     <property name="margin-end">6</property>
                   </object>
@@ -719,6 +618,8 @@
                     <property name="width-request">220</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <property name="margin-left">7</property>
+                    <property name="margin-right">6</property>
                     <property name="margin-start">7</property>
                     <property name="margin-end">6</property>
                   </object>
@@ -732,6 +633,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="halign">end</property>
+                    <property name="margin-right">4</property>
                     <property name="margin-end">4</property>
                     <property name="label" translatable="yes">Connection Key</property>
                     <property name="justify">right</property>
@@ -749,6 +651,7 @@
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="halign">end</property>
+                    <property name="margin-right">4</property>
                     <property name="margin-end">4</property>
                     <property name="label" translatable="yes">User</property>
                     <property name="justify">right</property>
@@ -766,6 +669,8 @@
                     <property name="width-request">220</property>
                     <property name="visible">True</property>
                     <property name="can-focus">True</property>
+                    <property name="margin-left">6</property>
+                    <property name="margin-right">6</property>
                     <property name="margin-start">6</property>
                     <property name="margin-end">6</property>
                   </object>
@@ -779,10 +684,11 @@
                     <property name="label" translatable="yes">Maybe try with Framewase Quick Link?</property>
                     <property name="width-request">220</property>
                     <property name="visible">True</property>
-                    <property name="can-focus">False</property>
+                    <property name="can-focus">True</property>
                     <property name="focus-on-click">False</property>
                     <property name="receives-default">False</property>
                     <property name="halign">end</property>
+                    <property name="margin-right">6</property>
                     <property name="margin-end">6</property>
                     <property name="relief">none</property>
                     <property name="use-underline">True</property>
@@ -818,134 +724,12 @@
         </child>
       </object>
     </child>
-    <child type="titlebar">
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="xpad">4</property>
-            <property name="ypad">2</property>
-            <property name="pixel-size">24</property>
-            <property name="icon-name">applications-development</property>
-            <property name="icon_size">3</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">True</property>
-            <property name="label" translatable="yes">Framewase Location Assistant</property>
-            <property name="justify">center</property>
-            <attributes>
-              <attribute name="font-desc" value="Sans Bold 12"/>
-            </attributes>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButtonBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="halign">end</property>
-            <property name="margin-end">4</property>
-            <property name="layout-style">start</property>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <property name="always-show-image">True</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">0</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">1</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
-  <object class="GtkWindow" id="selection_remote_quick">
+  </template>
+  <template class="selection_remote_quick" parent="GtkBin">
+    <property name="visible">True</property>
     <property name="can-focus">False</property>
-    <property name="resizable">False</property>
-    <property name="window-position">center-always</property>
-    <property name="default-width">420</property>
-    <property name="default-height">260</property>
-    <property name="accept-focus">False</property>
-    <property name="gravity">north</property>
     <child>
       <object class="GtkBox">
-        <property name="visible">True</property>
         <property name="can-focus">False</property>
         <property name="margin-top">12</property>
         <property name="margin-bottom">6</property>
@@ -1013,7 +797,11 @@
                         <property name="receives-default">True</property>
                         <property name="always-show-image">True</property>
                         <child>
-                          <placeholder/>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="stock">gtk-missing-image</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
@@ -1061,7 +849,11 @@
                         <property name="receives-default">True</property>
                         <property name="always-show-image">True</property>
                         <child>
-                          <placeholder/>
+                          <object class="GtkImage">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="stock">gtk-missing-image</property>
+                          </object>
                         </child>
                       </object>
                       <packing>
@@ -1115,122 +907,5 @@
         </child>
       </object>
     </child>
-    <child type="titlebar">
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="xpad">4</property>
-            <property name="ypad">2</property>
-            <property name="pixel-size">24</property>
-            <property name="icon-name">applications-development</property>
-            <property name="icon_size">3</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">True</property>
-            <property name="label" translatable="yes">Framewase Location Assistant</property>
-            <property name="justify">center</property>
-            <attributes>
-              <attribute name="font-desc" value="Sans Bold 12"/>
-            </attributes>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButtonBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="halign">end</property>
-            <property name="margin-right">4</property>
-            <property name="margin-end">4</property>
-            <property name="layout-style">start</property>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <property name="always-show-image">True</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">0</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">1</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
+  </template>
 </interface>
