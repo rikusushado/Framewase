@@ -62,12 +62,10 @@
                   <object class="GtkImage">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">2</property>
+                    <property name="stock">gtk-go-down</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
                   </object>
                 </child>
                 <style>
@@ -93,12 +91,10 @@
                   <object class="GtkImage">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">2</property>
+                    <property name="stock">gtk-close</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
                   </object>
                 </child>
                 <style>
@@ -356,7 +352,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="stock">gtk-missing-image</property>
+                            <property name="icon-name">folder</property>
                           </object>
                         </child>
                       </object>
@@ -408,7 +404,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="stock">gtk-missing-image</property>
+                            <property name="icon-name">network-server</property>
                           </object>
                         </child>
                       </object>
@@ -460,7 +456,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="stock">gtk-missing-image</property>
+                            <property name="icon-name">folder-remote</property>
                           </object>
                         </child>
                       </object>
@@ -797,7 +793,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="stock">gtk-missing-image</property>
+                            <property name="stock">gtk-paste</property>
                           </object>
                         </child>
                       </object>
@@ -849,7 +845,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-                            <property name="stock">gtk-missing-image</property>
+                            <property name="stock">gtk-edit</property>
                           </object>
                         </child>
                       </object>

@@ -2,11 +2,7 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
-<<<<<<< HEAD
   <object class="GtkWindow">
-=======
-  <template class="selection_local_search" parent="GtkBin">
->>>>>>> 77b7aeb (WIP: Location Assistant)
     <property name="visible">True</property>
     <property name="can-focus">False</property>
     <child>
@@ -70,8 +66,8 @@
                     <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">2</property>
+                    <property name="stock">gtk-go-down</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">go-down</property>
                   </object>
                 </child>
                 <style>
@@ -101,8 +97,8 @@
                     <property name="valign">center</property>
                     <property name="xpad">2</property>
                     <property name="ypad">2</property>
+                    <property name="stock">gtk-close</property>
                     <property name="pixel-size">16</property>
-                    <property name="icon-name">dialog-close</property>
                   </object>
                 </child>
                 <style>
@@ -360,13 +356,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-<<<<<<< HEAD
-                            <property name="stock">gtk-missing-image</property>
-=======
-                            <property name="halign">center</property>
-                            <property name="valign">center</property>
                             <property name="icon-name">folder</property>
->>>>>>> 77b7aeb (WIP: Location Assistant)
                           </object>
                         </child>
                       </object>
@@ -418,13 +408,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-<<<<<<< HEAD
-                            <property name="stock">gtk-missing-image</property>
-=======
-                            <property name="halign">center</property>
-                            <property name="valign">center</property>
-                            <property name="icon-name">user-home</property>
->>>>>>> 77b7aeb (WIP: Location Assistant)
+                            <property name="icon-name">network-server</property>
                           </object>
                         </child>
                       </object>
@@ -476,13 +460,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-<<<<<<< HEAD
-                            <property name="stock">gtk-missing-image</property>
-=======
-                            <property name="halign">center</property>
-                            <property name="valign">center</property>
                             <property name="icon-name">folder-remote</property>
->>>>>>> 77b7aeb (WIP: Location Assistant)
                           </object>
                         </child>
                       </object>
@@ -819,13 +797,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-<<<<<<< HEAD
-                            <property name="stock">gtk-missing-image</property>
-=======
-                            <property name="halign">center</property>
-                            <property name="valign">center</property>
                             <property name="stock">gtk-paste</property>
->>>>>>> 77b7aeb (WIP: Location Assistant)
                           </object>
                         </child>
                       </object>
@@ -877,13 +849,7 @@
                           <object class="GtkImage">
                             <property name="visible">True</property>
                             <property name="can-focus">False</property>
-<<<<<<< HEAD
-                            <property name="stock">gtk-missing-image</property>
-=======
-                            <property name="halign">center</property>
-                            <property name="valign">center</property>
                             <property name="stock">gtk-edit</property>
->>>>>>> 77b7aeb (WIP: Location Assistant)
                           </object>
                         </child>
                       </object>
@@ -939,133 +905,4 @@
       </object>
     </child>
   </template>
-<<<<<<< HEAD
-=======
-  <object class="GtkWindow" id="window_location_add">
-    <property name="visible">True</property>
-    <property name="can-focus">False</property>
-    <property name="window-position">center-always</property>
-    <property name="default-width">420</property>
-    <property name="default-height">260</property>
-    <property name="gravity">north</property>
-    <child>
-      <placeholder/>
-    </child>
-    <child type="titlebar">
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="can-focus">False</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="xpad">4</property>
-            <property name="ypad">2</property>
-            <property name="pixel-size">24</property>
-            <property name="icon-name">applications-development</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="hexpand">True</property>
-            <property name="label" translatable="yes">Add Framewase Location</property>
-            <property name="justify">center</property>
-            <attributes>
-              <attribute name="font-desc" value="Sans Bold 12"/>
-            </attributes>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkButtonBox">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="halign">end</property>
-            <property name="margin-end">4</property>
-            <property name="layout-style">start</property>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <property name="always-show-image">True</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="stock">gtk-go-down</property>
-                    <property name="pixel-size">16</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">0</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkButton">
-                <property name="visible">True</property>
-                <property name="can-focus">True</property>
-                <property name="receives-default">True</property>
-                <property name="halign">center</property>
-                <property name="valign">center</property>
-                <child>
-                  <object class="GtkImage">
-                    <property name="visible">True</property>
-                    <property name="can-focus">False</property>
-                    <property name="halign">center</property>
-                    <property name="valign">center</property>
-                    <property name="xpad">2</property>
-                    <property name="ypad">2</property>
-                    <property name="stock">gtk-close</property>
-                    <property name="pixel-size">16</property>
-                  </object>
-                </child>
-                <style>
-                  <class name="small"/>
-                </style>
-              </object>
-              <packing>
-                <property name="expand">False</property>
-                <property name="fill">True</property>
-                <property name="pack-type">end</property>
-                <property name="position">1</property>
-                <property name="non-homogeneous">True</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">2</property>
-          </packing>
-        </child>
-      </object>
-    </child>
-  </object>
->>>>>>> 77b7aeb (WIP: Location Assistant)
 </interface>
