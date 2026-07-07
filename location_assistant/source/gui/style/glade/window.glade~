@@ -86,7 +86,7 @@
                                 <property name="can-focus">False</property>
                                 <property name="halign">center</property>
                                 <property name="valign">center</property>
-                                <property name="icon-name">folder</property>
+                                <property name="icon-name">user-desktop-symbolic</property>
                               </object>
                             </child>
                           </object>
@@ -140,7 +140,7 @@
                                 <property name="can-focus">False</property>
                                 <property name="halign">center</property>
                                 <property name="valign">center</property>
-                                <property name="icon-name">user-home</property>
+                                <property name="icon-name">go-home</property>
                                 <style>
                                   <class name="fill-parent"/>
                                 </style>
@@ -197,7 +197,7 @@
                                 <property name="can-focus">False</property>
                                 <property name="halign">center</property>
                                 <property name="valign">center</property>
-                                <property name="icon-name">folder-remote</property>
+                                <property name="icon-name">network-wireless-symbolic</property>
                                 <style>
                                   <class name="fill-parent"/>
                                 </style>
@@ -353,7 +353,7 @@
                                 <property name="can-focus">False</property>
                                 <property name="halign">center</property>
                                 <property name="valign">center</property>
-                                <property name="stock">gtk-refresh</property>
+                                <property name="icon-name">view-refresh</property>
                               </object>
                             </child>
                             <style>
@@ -540,7 +540,7 @@
                                 <property name="can-focus">False</property>
                                 <property name="halign">center</property>
                                 <property name="valign">center</property>
-                                <property name="icon-name">insert-text</property>
+                                <property name="icon-name">document-edit-symbolic</property>
                                 <style>
                                   <class name="fill-parent"/>
                                 </style>

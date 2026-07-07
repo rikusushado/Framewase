@@ -364,7 +364,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="server-options-button">
+                  <object class="GtkButton" id="website-properties-button">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="receives-default">True</property>

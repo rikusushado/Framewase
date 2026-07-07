@@ -364,7 +364,7 @@
                   </packing>
                 </child>
                 <child>
-                  <object class="GtkButton" id="server-options-button">
+                  <object class="GtkButton" id="website-properties-button">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <property name="receives-default">True</property>
@@ -504,7 +504,7 @@
                     <property name="valign">center</property>
                     <property name="xpad">6</property>
                     <property name="ypad">6</property>
-                    <property name="pixel-size">20</property>
+                    <property name="pixel-size">16</property>
                     <property name="icon-name">view-restore</property>
                   </object>
                 </child>
@@ -536,7 +536,7 @@
                     <property name="valign">center</property>
                     <property name="xpad">6</property>
                     <property name="ypad">6</property>
-                    <property name="pixel-size">20</property>
+                    <property name="pixel-size">16</property>
                     <property name="icon-name">view-fullscreen</property>
                   </object>
                 </child>
@@ -567,7 +567,7 @@
                     <property name="valign">center</property>
                     <property name="xpad">6</property>
                     <property name="ypad">6</property>
-                    <property name="pixel-size">20</property>
+                    <property name="pixel-size">16</property>
                     <property name="icon-name">window-close</property>
                   </object>
                 </child>
