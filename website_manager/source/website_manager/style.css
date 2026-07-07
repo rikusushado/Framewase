@@ -1,0 +1,38 @@
+.small { 
+    padding: 4px;
+    margin: 0px;
+    min-width: 0px; 
+    min-height: 0px;
+    font-family: 'Noto Sans Regular';
+    font-size: 8pt;
+}
+
+.link { 
+    padding: 0px;
+    margin: 0px;
+    min-width: 0px; 
+    min-height: 0px;
+    font-family: 'Noto Sans Regular';
+    font-size: 9pt;
+    border: none;
+    color: rgb(222, 100, 255);
+    background-color: rgba(0,0,0,0);
+}
+
+.link:hover { 
+    color: rgb(255, 160, 255);
+}
+
+.link:active { 
+    color: rgb(169, 76, 195);
+}
+
+.div-rounded-thin {
+    padding: 6px 12px;
+    border: 1px solid #444;
+    border-radius: 6px;
+}
+
+.titlebar {
+    background-color: #2c2f32;
+}
